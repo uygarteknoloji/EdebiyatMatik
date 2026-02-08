@@ -1,0 +1,32 @@
+# Python sanal ortam
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Geçici / oluşturulan dosyalar
+print_temp.png
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# PyInstaller / build çıktıları
+build/
+dist/
+*.spec
+
+# IDE ayarları
+.idea/
+
+# OS
+.DS_Store
