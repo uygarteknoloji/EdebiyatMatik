@@ -105,7 +105,7 @@ def text_to_image_80mm(file_path, output_path="print_temp.png"):
     wrapped_body = []
     for line in body:
         wrapped_body.extend(textwrap.wrap(
-            line, width=60, replace_whitespace=False
+            line, width=50, replace_whitespace=False
         ) or [""])
 
     title_height = title_font.getbbox("Ay")[3]
